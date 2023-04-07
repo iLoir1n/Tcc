@@ -562,3 +562,27 @@ text-shadow: 2px 2px black;
 text-align: center;
 }
 
+/*borda de texto*/
+.test-container form{
+  box-shadow: 0 0.0625rem 0.3125rem rgb(0 0 0 / 40%);
+  /*cria um sombreamento nas bordas*/
+  margin: 100px;
+  padding: 40px;
+  background-color: rgb(231, 246, 247);
+  border-radius: 15px;
+  /*arredondar todas as bordas*/
+}
+
+.test_sub {
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  color: #333;
+  padding-bottom: 1.5625rem;
+  border-bottom: 0.06rem solid #ddd;
+  /* cria uma fina linha*/
+  margin-top: 3rem;
+}
+
+#label {
+  margin-top: 3rem;
+}

@@ -26,33 +26,6 @@
     <script src="js/progressbar.min.js"></script>
     <!-- Parallax -->
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
-
-
-    <style>
-        .test-container form{
-            box-shadow: 0 0.0625rem 0.3125rem rgb(0 0 0 / 40%);
-            /*cria um sombreamento nas bordas*/
-            margin: 100px;
-            padding: 40px;
-            background-color: rgb(231, 246, 247);
-            border-radius: 15px;
-            /*arredondar todas as bordas*/
-        }
-
-        .test_sub {
-            font-size: 1.5rem;
-            line-height: 1.6rem;
-            color: #333;
-            padding-bottom: 1.5625rem;
-            border-bottom: 0.06rem solid #ddd;
-            /* cria uma fina linha*/
-            margin-top: 3rem;
-        }
-
-        #label {
-            margin-top: 3rem;
-        }
-    </style>
 </head>
 
 <body>
@@ -78,19 +51,18 @@
             </nav>
         </div>
     </header>
+    
     <div class="test-container">
-
         <form id="teste" action="#" method="POST">
-
             <h1>Teste de Toxicidade</h1>
-                <div id="quemE">
-                    Para quem é esse teste:
-                    <select name="quemESelect" id="quemESelect" >
-                        <option value="">selecionar</option>
-                        <option value="responsavel">Para um jogador</option>
-                        <option value="jogador">Para um amigo(a) do jogador</option>
-                    </select>
-                </div>
+            <div id="quemE">
+                Para quem é esse teste:
+                <select name="quemESelect" id="quemESelect" >
+                    <option value="">selecionar</option>
+                    <option value="responsavel">Para um jogador</option>
+                    <option value="jogador">Para um amigo(a) do jogador</option>
+                </select>
+            </div>
             <div id="responsavel" style="display: none;">
                 <div id="question-1">
                     <h2 class="test_sub">Questão 01</h2>
@@ -158,15 +130,14 @@
             </div>
             
             <br>
-            <?php if ((isset($_GET['congrulations'])) and ($_GET['congrulations'] == true)) { ?>
+            <?php if((isset($_GET['congrulations'])) and ($_GET['congrulations'] == true)) { >?
                 <div id="congrulations" >
                 <h2>Obrigado por responder a pesquisa!</h2>
                 <h3>Seu score de segurança é: </h3>
                 <h1 id=printtotalscore></h1>
                 <p id=printscoreinfo></p>
                 <php } ?>
-                </div>
-            
+                </div> 
         </form>
     </div>
         <!-- Rodapé -->
@@ -220,7 +191,7 @@
         
         <!-- Script De Escolha Entre Pai e Player-->
         <script src="./toxidade.js"></script>
-        <script src="js/scripts.js"></script>
+        <script src="/script.js"></script>
 </body>
 
 </html>
