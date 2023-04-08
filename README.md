@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 
-# JL_Community
-<h1>Codigo do TCC</h1>
-TOP zera
-<h1>sjd</h1>
-
+<h1>Projeto de Tcc 2 da UniREDENTOR</h1>
+<h2>TCC sobre Toxicidade em Jogos Eletrônicos</h2>
+<h2>Site para apresentação de projeto da dupla: Jonas Lopes e Eduardo Muniz</h2>
 </html>
