@@ -44,7 +44,7 @@
                     <div class="navbar-nav">
                         <a class="nav-item nav-link" id="home-menu" href="index.html">Home</span></a>
                         <a class="nav-item nav-link" id="about-menu" href="toxidade.html">O que é toxicidade</a>
-                        <a class="nav-item nav-link" id="services-menu" href="projeto.html">Projeto</a>
+                        <a class="nav-item nav-link" id="services-menu" href="projeto.php">Projeto</a>
                         <a class="nav-item nav-link" id="team-menu" href="faq.html">FAQ</a>
                     </div>
                 </div>
@@ -53,7 +53,7 @@
     </header>
     
     <div class="test-container">
-        <form id="teste" action="#" method="POST">
+        <form id="teste" action="" method="POST">
             <h1>Teste de Toxicidade</h1>
             <div id="quemE">
                 Para quem é esse teste:
@@ -125,21 +125,21 @@
                         pelo melhor.</p>
                     <p><input type="radio" name="question3" value="3"> <strong>C)</strong> Responder carinhosamente com:
                         “Joga mais e fala menos, não sabe jogar não picka".</p>
-                    <input type="button" id="submit" value="Enviar respostas">
+                    </div>
                 </div>
-            </div>
-            
-            <br>
-            <?php if((isset($_GET['congrulations'])) and ($_GET['congrulations'] == true)) { >?
-                <div id="congrulations" >
-                <h2>Obrigado por responder a pesquisa!</h2>
-                <h3>Seu score de segurança é: </h3>
-                <h1 id=printtotalscore></h1>
-                <p id=printscoreinfo></p>
-                <php } ?>
+                
+                <br>
+                <div id="congrulations" style="display:none">
+                    <h2>Obrigado por responder a pesquisa!</h2>
+                    <h3>Seu score de segurança é: </h3>
+                    <h1 id='printtotalscore'></h1>
+                    <p id='printscoreinfo'></p>
                 </div> 
-        </form>
-    </div>
+                <input type="submit" name="submit" id="submit" value="Enviar respostas">
+
+            </div>
+              
+            </form>
         <!-- Rodapé -->
         <footer>
             <div id="contact-area">

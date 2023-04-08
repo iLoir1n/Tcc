@@ -1,8 +1,8 @@
 var answers = {}
 
-var question_one = document.getElementById('question1');
-var question_two = document.getElementById('question2');
-var question_three = document.getElementById('question3');
+// var question_one = document.getElementById('question1');
+// var question_two = document.getElementById('question2');
+// var question_three = document.getElementById('question3');
 
 function storeAnswer(question_number, event){
 
@@ -16,26 +16,26 @@ function storeAnswer(question_number, event){
 
 //eventClick
 
-question_one.addEventListener('click', function(event){
-    storeAnswer(1, event)
-})
+// question_one.addEventListener('click', function(event){
+//     storeAnswer(1, event)
+// })
 
 
-question_two.addEventListener('click', function(event){
-    storeAnswer(2, event)
-})
+// question_two.addEventListener('click', function(event){
+//     storeAnswer(2, event)
+// })
 
 
-question_three.addEventListener('click', function(event){
-    storeAnswer(3, event)
-})
+// question_three.addEventListener('click', function(event){
+//     storeAnswer(3, event)
+// })
 
 
 function totalScore(){
-    var total_score = 
-    answers.question1+
-    answers.question2+
-    answers.question3;
+    var total_score = 2; 
+    // answers.question1+
+    // answers.question2+
+    // answers.question3;
     
     return total_score;
 }
@@ -58,8 +58,26 @@ function getInfoBasedOnScore(){
     
 }
 
- var submit = document.getElementById('submit');
- submit.addEventListener('click',function(){
-     document.getElementById("printtotalscore"). innerHTML = totalScore();
-     document.getElementById("printscoreinfo"). innerHTML = getInfoBasedOnScore();
- })
+//  document.getElementById('submit').addEventListener('click',function(){
+//      $( "#printtotalscore" ).value =  totalScore()
+//      $( "#printscoreinfo" ).value = getInfoBasedOnScore()
+//  })
+
+ $( "#teste" ).submit(function( event ) {
+    event.preventDefault();
+    $( "#printtotalscore" ).text(totalScore())  
+      $( "#printscoreinfo" ).text(getInfoBasedOnScore()) 
+      $( "#congrulations" ).css('display','block')
+
+      $( "#responsavel" ).slideUp( "slow", function() {
+        // Animation complete.
+    });
+    $( "#jogador" ).slideUp( "slow", function() {
+        // Animation complete.
+    });
+  });
+
+  $('#quemESelect').change(function(){
+    $( "#congrulations" ).css('display','none')
+  })
+  
