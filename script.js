@@ -32,11 +32,14 @@ function storeAnswer(question_number, event){
 
 
 function totalScore(){
-    var total_score = 2; 
-    // answers.question1+
-    // answers.question2+
-    // answers.question3;
-    
+    var total_score = 0; 
+    var index;
+    $.each( $(".questions"), function( i, l ){
+        index = i + 1;
+        console.log($(`input[name=question${index}]:checked`, '#teste > #jogador').val());
+    });
+
+
     return total_score;
 }
 

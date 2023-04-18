@@ -53,7 +53,7 @@
     </header>
     
     <div class="test-container">
-        <form id="teste" action="" method="POST">
+        <form id="teste" action="" method="POST">   
             <h1>Teste de Toxicidade</h1>
             <div id="quemE">
                 Para quem é esse teste:
@@ -81,49 +81,49 @@
             </div>
 
             <div id="jogador" style="display: none;">
-                <div id="question-1">
+                <div id="question-1" class="questions">
                     <h2 class="test_sub">Questão 01</h2>
                     <p> Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que
                         isso
                         aconteceu?</p> </br>
-                    <p><input type="radio" name="question1" value="1"> <strong>A)</strong> “Errei várias vezes, time,
+                    <p><input type="radio" name="question1" id="question1" value="1"> <strong>A)</strong> “Errei várias vezes, time,
                         perdoa. O ADC deles é bom mesmo, hein…”</p>
-                    <p><input type="radio" name="question1" value="2"> <strong>B)</strong> “Minha mentalidade de
+                    <p><input type="radio" name="question1" id="question1" value="2"> <strong>B)</strong> “Minha mentalidade de
                         Desafiante
                         me faz perder contra as aleatoriedades desse pratinha”</p>
-                    <p><input type="radio" name="question1" value="3"> <strong>C)</strong> “Culpa do jungler e do
+                    <p><input type="radio" name="question1" id="question1" value="3"> <strong>C)</strong> “Culpa do jungler e do
                         suporte,
                         sempre, eu fiz a minha parte, morri porque meu time é ruim”</p>
                 </div>
 
-                <div id="question-2">
+                <div id="question-2" class="questions">
                     <h2 class="test_sub">Questão 02</h2>
                     <p> Jogando um FPS, seu time inteiro morre para um inimigo de escopeta escondido em um canto. Você
                         tentou vingar seus aliados, errou todos os tiros e morreu também. Como proceder?</p> </br>
-                    <p><input type="radio" name="question2" value="1"> <strong>A)</strong> “NT, time, my bad. Bora jogar
+                    <p><input type="radio" name="question2" id="question2" value="1"> <strong>A)</strong> “NT, time, my bad. Bora jogar
                         com
                         calma o próximo round”</p>
-                    <p><input type="radio" name="question2" value="2"> <strong>B)</strong> “Com essa arma quebrada é
+                    <p><input type="radio" name="question2" id="question2" value="2"> <strong>B)</strong> “Com essa arma quebrada é
                         fácil”
                     </p>
-                    <p><input type="radio" name="question2" value="3"> <strong>C)</strong> “Vocês são muito ruins, FF.
+                    <p><input type="radio" name="question2" id="question2" value="3"> <strong>C)</strong> “Vocês são muito ruins, FF.
                         Se
                         faz um favor e desinstala…”</p>
                 </div>
 
-                <div id="question-3">
+                <div id="question-3" class="questions">
                     <h2 class="test_sub">Questão 03</h2>
                     <p>Em qualquer jogo online, a partida está difícil e muito disputada. Ambos os times têm chance de
                         ganhar, mas um aliado já perdeu a paciência e está mais digitando palavras raivosas no chat de
                         texto
                         do que jogando. Como lidar?.</p> </br>
-                    <p><input type="radio" name="question3" value="1"> <strong>A)</strong> Pedir calma e falar para
+                    <p><input type="radio" name="question3" id="question3" value="1"> <strong>A)</strong> Pedir calma e falar para
                         jogarem
                         juntos: “calma, cara, dá pra ganhar, um pick neles e é GG”.</p>
-                    <p><input type="radio" name="question3" value="2"> <strong>B)</strong> Silenciar o indivíduo e
+                    <p><input type="radio" name="question3" id="question3" value="2"> <strong>B)</strong> Silenciar o indivíduo e
                         esperar
                         pelo melhor.</p>
-                    <p><input type="radio" name="question3" value="3"> <strong>C)</strong> Responder carinhosamente com:
+                    <p><input type="radio" name="question3" id="question3" value="3"> <strong>C)</strong> Responder carinhosamente com:
                         “Joga mais e fala menos, não sabe jogar não picka".</p>
                     </div>
                 </div>
