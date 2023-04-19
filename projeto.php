@@ -1,5 +1,32 @@
 <?php
 session_start();
+
+
+$perguntas['jogador'] = [
+    [
+        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
+        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
+        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
+        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+    ]
+];
+
+$perguntas['amigo_jogador'] = [
+    [
+        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
+        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
+        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
+        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+    ],
+    [
+        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
+        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
+        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
+        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+    ]
+    
+];
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -61,7 +88,7 @@ session_start();
                     </select>
                 </div>
                 <div id="jogador" style="display: none;">
-                    <div id="question-1">
+                    <!-- <div id="question-1">
                         <h2 class="test_sub">Questão 01</h2>
                         <p> Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que
                             isso
@@ -74,11 +101,52 @@ session_start();
                         <p><input type="radio" name="jogador_question1" value="3"> <strong>C)</strong> “Culpa do jungler e do
                             suporte,
                             sempre, eu fiz a minha parte, morri porque meu time é ruim”</p>
-                    </div>
+                    </div> -->
+                    <?php foreach ($perguntas['jogador'] as $key => $value) { $index = $key + 1 ; ?>
+                        <div id="question-1" class="questions">
+                            <h2 class="test_sub">Questão <?= $index ?></h2>
+                            <p><?= $value['question'] ?></p> 
+                            </br>
+                            <p>
+                                <input type="radio" name="jogador_question<?= $index ?>" value="1"> 
+                                <strong>A)</strong> <?= $value['resp_1'] ?>
+                            </p>
+                            <p>
+                                <input type="radio" name="jogador_question<?= $index ?>" value="2"> 
+                                <strong>B)</strong> <?= $value['resp_2'] ?>
+                            </p>
+                            <p>
+                                <input type="radio" name="jogador_question<?= $index ?>" value="3"> 
+                                <strong>C)</strong> <?= $value['resp_3'] ?>
+                            </p>
+                        </div>
+                    <?php } ?>
                 </div>
 
                 <div id="amigo_jogador" style="display: none;">
-                    <div id="question-1" class="questions">
+                    <?php foreach ($perguntas['amigo_jogador'] as $key => $value) { $index = $key + 1 ; ?>
+                        <div id="question-1" class="questions">
+                            <h2 class="test_sub">Questão <?= $index ?></h2>
+                            <p><?= $value['question'] ?></p> 
+                            </br>
+                            <p>
+                                <input type="radio" name="amigo_question<?= $index ?>" value="1"> 
+                                <strong>A)</strong> <?= $value['resp_1'] ?>
+                            </p>
+                            <p>
+                                <input type="radio" name="amigo_question<?= $index ?>" value="2"> 
+                                <strong>B)</strong> <?= $value['resp_2'] ?>
+                            </p>
+                            <p>
+                                <input type="radio" name="amigo_question<?= $index ?>" value="3"> 
+                                <strong>C)</strong> <?= $value['resp_3'] ?>
+                            </p>
+                        </div>
+                    <?php } ?>
+
+                    <!-- 
+                        
+                      <div id="question-1" class="questions">
                         <h2 class="test_sub">Questão 01</h2>
                         <p> Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que
                             isso
@@ -122,7 +190,7 @@ session_start();
                             pelo melhor.</p>
                         <p><input type="radio" name="amigo_question3" value="3"> <strong>C)</strong> Responder carinhosamente com:
                             “Joga mais e fala menos, não sabe jogar não picka".</p>
-                    </div>
+                    </div> -->
                 </div>
 
                 <br>
