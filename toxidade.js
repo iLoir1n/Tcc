@@ -1,28 +1,27 @@
 $( "#quemESelect" ).change(function() {
                
     const select = $(this).val()
-    
-    if(select == 'responsavel'){
-        $( "#responsavel" ).slideDown( "slow", function() {
-            // Animation complete.
-        });
-
-        $( "#jogador" ).slideUp( "slow", function() {
-            // Animation complete.
-        });
-    }else if(select == 'jogador') {
+    if(select == 'jogador'){
         $( "#jogador" ).slideDown( "slow", function() {
             // Animation complete.
         });
 
-        $( "#responsavel" ).slideUp( "slow", function() {
+        $( "#amigo_jogador" ).slideUp( "slow", function() {
+            // Animation complete.
+        });
+    }else if(select == 'amigo_jogador') {
+        $( "#amigo_jogador" ).slideDown( "slow", function() {
+            // Animation complete.
+        });
+
+        $( "#jogador" ).slideUp( "slow", function() {
             // Animation complete.
         });
     }else{
-        $( "#responsavel" ).slideUp( "slow", function() {
+        $( "#jogador" ).slideUp( "slow", function() {
             // Animation complete.
         });
-        $( "#jogador" ).slideUp( "slow", function() {
+        $( "#amigo_jogador" ).slideUp( "slow", function() {
             // Animation complete.
         });
     }

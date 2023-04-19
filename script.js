@@ -66,21 +66,21 @@ function getInfoBasedOnScore(){
 //      $( "#printscoreinfo" ).value = getInfoBasedOnScore()
 //  })
 
- $( "#teste" ).submit(function( event ) {
-    event.preventDefault();
-    $( "#printtotalscore" ).text(totalScore())  
-      $( "#printscoreinfo" ).text(getInfoBasedOnScore()) 
-      $( "#congrulations" ).css('display','block')
+//  $( "#teste" ).submit(function( event ) {
+//     event.preventDefault();
+//     $( "#printtotalscore" ).text(totalScore())  
+//       $( "#printscoreinfo" ).text(getInfoBasedOnScore()) 
+//       $( "#congrulations" ).css('display','block')
 
-      $( "#responsavel" ).slideUp( "slow", function() {
-        // Animation complete.
-    });
-    $( "#jogador" ).slideUp( "slow", function() {
-        // Animation complete.
-    });
-  });
+//       $( "#responsavel" ).slideUp( "slow", function() {
+//         // Animation complete.
+//     });
+//     $( "#jogador" ).slideUp( "slow", function() {
+//         // Animation complete.
+//     });
+//   });
 
-  $('#quemESelect').change(function(){
-    $( "#congrulations" ).css('display','none')
-  })
+//   $('#quemESelect').change(function(){
+//     $( "#congrulations" ).css('display','none')
+//   })
   
