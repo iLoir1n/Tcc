@@ -8,10 +8,112 @@ $perguntas['jogador'] = [
         'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
         'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
         'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+    ],
+    [
+        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
+        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
+        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
+        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+    ],
+    [
+        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
+        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
+        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
+        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+    ],
+    [
+        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
+        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
+        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
+        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+    ],
+    [
+        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
+        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
+        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
+        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+    ],
+    [
+        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
+        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
+        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
+        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+    ],
+    [
+        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
+        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
+        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
+        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+    ],
+    [
+        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
+        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
+        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
+        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+    ],
+    [
+        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
+        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
+        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
+        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+    ],
+    [
+        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
+        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
+        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
+        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
     ]
 ];
 
 $perguntas['amigo_jogador'] = [
+    [
+        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
+        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
+        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
+        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+    ],
+    [
+        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
+        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
+        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
+        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+    ],
+    [
+        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
+        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
+        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
+        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+    ],
+    [
+        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
+        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
+        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
+        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+    ],
+    [
+        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
+        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
+        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
+        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+    ],
+    [
+        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
+        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
+        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
+        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+    ],
+    [
+        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
+        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
+        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
+        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+    ],
+    [
+        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
+        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
+        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
+        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+    ],
     [
         'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
         'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
@@ -77,6 +179,7 @@ $perguntas['amigo_jogador'] = [
 
     <div class="test-container">
         <form id="controller" action="controller/projetoController.php" method="POST">
+            oi
             <h1>Teste de Toxicidade</h1>
             <?php if (!isset($_SESSION['pontuacao'])) { ?>
                 <div id="quemE">
@@ -108,15 +211,15 @@ $perguntas['amigo_jogador'] = [
                             <p><?= $value['question'] ?></p> 
                             </br>
                             <p>
-                                <input type="radio" name="jogador_question<?= $index ?>" value="1"> 
+                                <input type="radio" name="jogador_question<?= $index ?>" value="0"> 
                                 <strong>A)</strong> <?= $value['resp_1'] ?>
                             </p>
                             <p>
-                                <input type="radio" name="jogador_question<?= $index ?>" value="2"> 
+                                <input type="radio" name="jogador_question<?= $index ?>" value="1"> 
                                 <strong>B)</strong> <?= $value['resp_2'] ?>
                             </p>
                             <p>
-                                <input type="radio" name="jogador_question<?= $index ?>" value="3"> 
+                                <input type="radio" name="jogador_question<?= $index ?>" value="2"> 
                                 <strong>C)</strong> <?= $value['resp_3'] ?>
                             </p>
                         </div>
@@ -130,15 +233,15 @@ $perguntas['amigo_jogador'] = [
                             <p><?= $value['question'] ?></p> 
                             </br>
                             <p>
-                                <input type="radio" name="amigo_question<?= $index ?>" value="1"> 
+                                <input type="radio" name="amigo_question<?= $index ?>" value="0"> 
                                 <strong>A)</strong> <?= $value['resp_1'] ?>
                             </p>
                             <p>
-                                <input type="radio" name="amigo_question<?= $index ?>" value="2"> 
+                                <input type="radio" name="amigo_question<?= $index ?>" value="1"> 
                                 <strong>B)</strong> <?= $value['resp_2'] ?>
                             </p>
                             <p>
-                                <input type="radio" name="amigo_question<?= $index ?>" value="3"> 
+                                <input type="radio" name="amigo_question<?= $index ?>" value="2"> 
                                 <strong>C)</strong> <?= $value['resp_3'] ?>
                             </p>
                         </div>
@@ -205,9 +308,9 @@ $perguntas['amigo_jogador'] = [
                 echo "<p id='pontuacao'>Você obteve uma pontuação de: " .  $_SESSION['pontuacao'] ." pontos</p>";
                 echo "<h2>Obrigado por responder a pesquisa!</h2>";
 
-                if ($_SESSION['pontuacao'] < 4) {
+                if ($_SESSION['pontuacao'] < 7) {
                     echo "Não Tóxico";
-                } else if ($_SESSION['pontuacao'] < 7) {
+                } else if ($_SESSION['pontuacao'] < 15) {
                     echo "Mais ou menos Tóxico";
                 } else {
                     echo "Tóxico";
