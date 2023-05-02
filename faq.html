@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JL Community - FAQ </title>
+    <title>JL Community - O que é Toxidade </title>
     <!-- Fonte -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
     <!-- Estilos -->
@@ -26,12 +26,104 @@
     <script src="js/progressbar.min.js"></script>
     <!-- Parallax -->
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+
+    <style>
+        body {
+            font-family: "IBM Plex Sans", sans-serif;
+            background-color: rgba(0, 0, 0, .1);
+        }
+
+        h2 {
+            margin: 20px auto 80px;
+            font-size: 38px;
+            font-weight: 300;
+            text-align: center;
+            letter-spacing: 2px;
+            line-height: 1.5;
+        }
+
+        details {
+            width: 75%;
+            min-height: 5px;
+            max-width: 700px;
+            padding: 45px 70px 45px 45px;
+            margin: 0 auto;
+            position: relative;
+            font-size: 22px;
+            border: 1px solid rgba(0, 0, 0, .1);
+            border-radius: 15px;
+            box-sizing: border-box;
+            transition: all .3s;
+        }
+
+        details+details {
+            margin-top: 20px;
+        }
+
+        details[open] {
+            min-height: 50px;
+            background-color: #f6f7f8;
+            box-shadow: 2px 2px 20px rgba(0, 0, 0, .2);
+        }
+
+        details p {
+            color: #96999d;
+            font-weight: 300;
+        }
+
+        summary {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 500;
+            cursor: pointer;
+        }
+
+        summary:focus {
+            outline: none;
+
+        }
+
+        summary:focus::after {
+            content: "";
+            height: 100%;
+            width: 100%;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            box-shadow: 0 0 0 5px #65DAF9;
+            border-radius: 18px;
+        }
+
+        summary::-webkit-details-marker {
+            display: none
+        }
+
+        .control-icon {
+            fill: rebeccapurple;
+            transition: .3s ease;
+            pointer-events: none;
+        }
+
+        .control-icon-close {
+            display: none;
+        }
+
+        details[open] .control-icon-close {
+            display: initial;
+            transition: .3s ease;
+        }
+
+        details[open] .control-icon-expand {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
     <header>
         <div class="container" id="nav-container">
-            <!-- add essa class -->
             <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
                 <a class="navbar-brand texto_imagem" href="index.html">
                     <img id="logo" src="img/logo2.png" alt="hDC Agency"> JL Community
@@ -44,7 +136,7 @@
                 <div class="collapse navbar-collapse justify-content-end nav-pills " id="navbar-links">
                     <div class="navbar-nav">
                         <a class="nav-item nav-link" id="home-menu" href="index.html">Home</span></a>
-                        <a class="nav-item nav-link" id="about-menu" href="toxidade.html">O que é toxici    dade</a>
+                        <a class="nav-item nav-link" id="about-menu" href="toxidade.html">O que é toxicidade</a>
                         <a class="nav-item nav-link" id="services-menu" href="projeto.php">Projeto</a>
                         <a class="nav-item nav-link" id="team-menu" href="faq.html">FAQ</a>
                     </div>
@@ -52,45 +144,115 @@
             </nav>
         </div>
     </header>
-    <!-- Rodapé -->
-    <footer>
-        <div id="contact-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h3 class="main-title">Entre em contato conosco</h3>
-                    </div>
-                    <div class="col-md-4 contact-box">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <p><span class="contact-tile">Venha tomar um café:</span> Rua Luiz Dinis - 102</p>
-                        <p><span class="contact-tile">Horários:</span> 9:00 - 18:00</p>
-                    </div>
-                    <div class="col-md-4 contact-box">
-                        <i class="fas fa-envelope"></i>
-                        <p><span class="contact-tile">Envie um email:</span> JlCommunity@hotmail.com</p>
-                        <p><span class="contact-tile">Discord: </span><a id="text-sem-decoracao"
-                                href="https://discord.gg/VK8N7DrD">Clique Aqui</a></p>
-                    </div>
-                    <div class="col-md-4 contact-box">
-                        <i class="fas fa-phone"></i>
-                        <p><span class="contact-tile">Telefone de Contato:</span> (22)3864-0000</p>
-                        <p><span class="contact-tile">Whatsapp:</span> (22)98847-2149</p>
-                    </div>
-                    <div class="col-md-6" id="msg-box">
-                        <p>Ou nos deixe uma mensagem:</p>
-                    </div>
-                    <div class="col-md-6" id="contact-form">
-                        <form action="">
-                            <input type="text" class="form-control" placeholder="E-mail" name="email">
-                            <input type="text" class="form-control" placeholder="Assunto" name="subject">
-                            <textarea class="form-control" rows="3" placeholder="Sua mensagem..."
-                                name="message"></textarea>
-                            <input type="submit" class="main-btn">
-                        </form>
-                    </div>
+
+    <div class="test-container">
+        <form id="teste" action="#" method="POST">
+            <div class="main-title">
+                <h2>Perguntas Frequentes</h2>
+
+                <div style="visibility: hidden; position: absolute; width: 0px; height: 0px;">
+                    <svg xmlns="http://www.w3.org/2000/svg">
+                        <symbol viewBox="0 0 24 24" id="expand-more">
+                            <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" />
+                            <path d="M0 0h24v24H0z" fill="none" />
+                        </symbol>
+                        <symbol viewBox="0 0 24 24" id="close">
+                            <path
+                                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
+                            <path d="M0 0h24v24H0z" fill="none" />
+                        </symbol>
+                    </svg>
                 </div>
+
+                <details open>
+                    <summary>
+                        Vício em jogos eletrônicos é classificado pela OMS como problema de saúde mental?
+                        <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" />
+                        </svg>
+                        <svg class="control-icon control-icon-close" width="24" height="24" role="presentation">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" />
+                        </svg>
+                    </summary>
+                    <p>A Organização Mundial da Saúde (OMS) considerou pela primeira vez a compulsão por jogos eletrônicos um distúrbio mental 
+                        e incluiu no rascunho da 11° classificação Internacional de doenças (CID), “os distúrbios em games” ou “gaming disorder”,
+                         por ser um padrão de comportamento maléfico e que leva a preferência por jogos do que qualquer interesse na vida.
+                        <br>Veja mais em: <a href="https://news.un.org/pt/story/2018/06/1627652#:~:text=A%20Organiza%C3%A7%C3%A3o%20Mundial
+                        %20da%20Sa%C3%BAde%2C%20OMS%2C%20anunciou%20esta,mil%20c%C3%B3digos%20para%20ferimentos%2C%20doen%C3%A7as%20e%20cau
+                        sa%20mortis." target="_blank"><u>Vício em videogame é classificado pela OMS como problema de saúde mental.</u></a></p>
+                </details>
+
+                <details>
+
+                    <summary>
+                          Quem é OMS? E como ela influenc
+                        <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" />
+                        </svg>
+                        <svg class="control-icon control-icon-close" width="24" height="24" role="presentation">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" />
+                        </svg>
+                    </summary>
+                    <p>Of course you can, we won't stop you.</p>
+                </details>
+
+                <details>
+                    <summary>
+                        Pergunta 3
+                        <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" />
+                        </svg>
+                        <svg class="control-icon control-icon-close" width="24" height="24" role="presentation">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" />
+                        </svg>
+                    </summary>
+                    <p>Only your imagination my friend. Go forth!</p>
+                </details>
+
+                <details>
+                    <summary>
+                        Pergunta 4
+                        <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" />
+                        </svg>
+                        <svg class="control-icon control-icon-close" width="24" height="24" role="presentation">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" />
+                        </svg>
+                    </summary>
+                    <p>Totally. Totally does.</p>
+                </details>
+
+                <details>
+
+                    <summary>
+                        Pergunta 5
+                        <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" />
+                        </svg>
+                        <svg class="control-icon control-icon-close" width="24" height="24" role="presentation">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" />
+                        </svg>
+                    </summary>
+                    <p>Of course you can, we won't stop you.</p>
+                </details>
+
+                <details>
+                    <summary>
+                        Pergunta 6
+                        <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" />
+                        </svg>
+                        <svg class="control-icon control-icon-close" width="24" height="24" role="presentation">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" />
+                        </svg>
+                    </summary>
+                    <p>Only your imagination my friend. Go forth!</p>
+                </details>
             </div>
-        </div>
+        </form>
+    </div>
+
+    <footer>
         <div id="copy-area">
             <div class="container">
                 <div class="row">
@@ -102,3 +264,5 @@
         </div>
     </footer>
 </body>
+
+</html>
