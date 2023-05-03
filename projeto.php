@@ -126,7 +126,7 @@ $perguntas['amigo_jogador'] = [
         'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
         'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
     ]
-    
+
 ];
 
 ?>
@@ -179,8 +179,9 @@ $perguntas['amigo_jogador'] = [
 
     <div class="test-container">
         <form id="controller" action="controller/projetoController.php" method="POST">
-            oi
-            <h1>Teste de Toxicidade</h1>
+            <div class="col-10">
+                <h3 class="textprojeto1">Sobre a JL Comunnity</h3>
+            </div>
             <?php if (!isset($_SESSION['pontuacao'])) { ?>
                 <div id="quemE">
                     Para quem é esse teste:
@@ -205,21 +206,22 @@ $perguntas['amigo_jogador'] = [
                             suporte,
                             sempre, eu fiz a minha parte, morri porque meu time é ruim”</p>
                     </div> -->
-                    <?php foreach ($perguntas['jogador'] as $key => $value) { $index = $key + 1 ; ?>
+                    <?php foreach ($perguntas['jogador'] as $key => $value) {
+                        $index = $key + 1; ?>
                         <div id="question-1" class="questions">
                             <h2 class="test_sub">Questão <?= $index ?></h2>
-                            <p><?= $value['question'] ?></p> 
+                            <p><?= $value['question'] ?></p>
                             </br>
                             <p>
-                                <input type="radio" name="jogador_question<?= $index ?>" value="0"> 
+                                <input type="radio" name="jogador_question<?= $index ?>" value="0">
                                 <strong>A)</strong> <?= $value['resp_1'] ?>
                             </p>
                             <p>
-                                <input type="radio" name="jogador_question<?= $index ?>" value="1"> 
+                                <input type="radio" name="jogador_question<?= $index ?>" value="1">
                                 <strong>B)</strong> <?= $value['resp_2'] ?>
                             </p>
                             <p>
-                                <input type="radio" name="jogador_question<?= $index ?>" value="2"> 
+                                <input type="radio" name="jogador_question<?= $index ?>" value="2">
                                 <strong>C)</strong> <?= $value['resp_3'] ?>
                             </p>
                         </div>
@@ -227,21 +229,22 @@ $perguntas['amigo_jogador'] = [
                 </div>
 
                 <div id="amigo_jogador" style="display: none;">
-                    <?php foreach ($perguntas['amigo_jogador'] as $key => $value) { $index = $key + 1 ; ?>
+                    <?php foreach ($perguntas['amigo_jogador'] as $key => $value) {
+                        $index = $key + 1; ?>
                         <div id="question-1" class="questions">
                             <h2 class="test_sub">Questão <?= $index ?></h2>
-                            <p><?= $value['question'] ?></p> 
+                            <p><?= $value['question'] ?></p>
                             </br>
                             <p>
-                                <input type="radio" name="amigo_question<?= $index ?>" value="0"> 
+                                <input type="radio" name="amigo_question<?= $index ?>" value="0">
                                 <strong>A)</strong> <?= $value['resp_1'] ?>
                             </p>
                             <p>
-                                <input type="radio" name="amigo_question<?= $index ?>" value="1"> 
+                                <input type="radio" name="amigo_question<?= $index ?>" value="1">
                                 <strong>B)</strong> <?= $value['resp_2'] ?>
                             </p>
                             <p>
-                                <input type="radio" name="amigo_question<?= $index ?>" value="2"> 
+                                <input type="radio" name="amigo_question<?= $index ?>" value="2">
                                 <strong>C)</strong> <?= $value['resp_3'] ?>
                             </p>
                         </div>
@@ -298,22 +301,26 @@ $perguntas['amigo_jogador'] = [
 
                 <br>
 
-
                 <input type="submit" name="submit" id="submit" value="Enviar respostas">
 
-                <?php 
-            
-                } else { 
+            <?php
 
-                echo "<p id='pontuacao'>Você obteve uma pontuação de: " .  $_SESSION['pontuacao'] ." pontos</p>";
+            } else {
+
                 echo "<h2>Obrigado por responder a pesquisa!</h2>";
 
                 if ($_SESSION['pontuacao'] < 7) {
-                    echo "Não Tóxico";
+                    echo "<p id='pontuacao'>Você obteve uma pontuação de: " .  $_SESSION['pontuacao'] . " pontos</p>";
+                    echo "Parabéns, conforme a nota " .  $_SESSION['pontuacao'] . ",foi considerado NÃO TÓXICO!";
                 } else if ($_SESSION['pontuacao'] < 15) {
-                    echo "Mais ou menos Tóxico";
+                    echo "<p id='pontuacao'>Você obteve uma pontuação de: " .  $_SESSION['pontuacao'] . " pontos</p>";
+                    echo "Conforme a nota " .  $_SESSION['pontuacao'] . ",foi considerado MAIS OU MENOS TÓXICO!<br>
+                    Ter uma conduta BOA apenas as vezes pode prejudicar a si mesmo e ao próximo,tome cuidado para isso nao sair da linha.";
                 } else {
-                    echo "Tóxico";
+                    echo "<p id='pontuacao'>Você obteve uma pontuação de: " .  $_SESSION['pontuacao'] . " pontos</p>";
+                    echo "Infelizmente conforme a nota " .  $_SESSION['pontuacao'] . ",foi considerado TÓXICO!<br>
+                    Considerado TÓXICO,está de forma negativa afetando a própria vida e ao do próximo.<br>
+                    Temos uma página explicando sobre as causas,motivos e consequências da Toxicidade em Jogos Eletrônicos,<a href='toxidade.html'>clique aqui</a> e veja você mesmo(a).";
                 }
 
                 // remove a pontuação da variável de sessão para que não seja exibida novamente

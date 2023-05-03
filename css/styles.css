@@ -197,6 +197,11 @@ header, .navbar {
   color: #65DAF9;
 }
 
+.textprojeto1 {
+  color: #c01919;
+  text-align: center;
+  
+}
 /* Dados */
 
 .circle-box div {
@@ -585,4 +590,9 @@ text-align: center;
 
 #label {
   margin-top: 3rem;
+}
+
+ /* Texto do Projeto*/
+#text_project {
+  color: #6b0d0d;
 }
