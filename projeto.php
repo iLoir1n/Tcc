@@ -315,7 +315,7 @@ $perguntas['amigo_jogador'] = [
                 } else if ($_SESSION['pontuacao'] < 15) {
                     echo "<p id='pontuacao'>Você obteve uma pontuação de: " .  $_SESSION['pontuacao'] . " pontos</p>";
                     echo "Conforme a nota " .  $_SESSION['pontuacao'] . ",foi considerado MAIS OU MENOS TÓXICO!<br>
-                    Ter uma conduta BOA apenas as vezes pode prejudicar a si mesmo e ao próximo,tome cuidado para isso nao sair da linha.";
+                    Ter uma conduta BOA apenas às vezes pode prejudicar a si e ao próximo, tome cuidado para isso não sair da linha.";
                 } else {
                     echo "<p id='pontuacao'>Você obteve uma pontuação de: " .  $_SESSION['pontuacao'] . " pontos</p>";
                     echo "Infelizmente conforme a nota " .  $_SESSION['pontuacao'] . ",foi considerado TÓXICO!<br>
