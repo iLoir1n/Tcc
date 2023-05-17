@@ -4,64 +4,64 @@ session_start();
 
 $perguntas['jogador'] = [
     [
-        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
-        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
-        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
-        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+        'question' => "Você se sente estressado quando joga jogos online?",
+        'resp_1' => "Não,eu nao me estresso.",
+        'resp_2' => "Sim eu me estresso, porém eu me controlo.",
+        'resp_3' => "Sim eu me estresso, e não consigo me controlar."
     ],
     [
-        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
-        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
-        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
-        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+        'question' => "O resultado final de uma partida pode influenciar em seu emocional?",
+        'resp_1' => "Não,isso não afeta em nada em meu emocional.",
+        'resp_2' => "As vezes, depende muito.",
+        'resp_3' => "Sim, acaba influenciando sobre meu emocional."
     ],
     [
-        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
-        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
-        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
-        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+        'question' => "Como você reage quando perde ou comete erros durante no jogo?",
+        'resp_1' => "Procuro aprender com meus próprios erros.",
+        'resp_2' => "Me estresso, porém não influencia no meu dia.",
+        'resp_3' => "Me estresso muito ao ponto de mudar meu humor."
     ],
     [
-        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
-        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
-        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
-        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+        'question' => "Você costuma ser rude ou desrespeitoso com outros jogadores após perder uma partida?",
+        'resp_1' => "Não,eu não faço isso.",
+        'resp_2' => "Depende de como o adversário me tratar.",
+        'resp_3' => "Sim, não aceito perder uma partida então desconto em outros jogadores."
     ],
     [
-        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
-        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
-        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
-        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+        'question' => "De 0 a 10 com que frequência você critica ou insulta outros jogadores durante o jogo?",
+        'resp_1' => "0 a 3=nunca.",
+        'resp_2' => "4 a 6=às vezes.",
+        'resp_3' => "7 a 10=sempre."
     ],
     [
-        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
-        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
-        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
-        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+        'question' => "Você costuma usar palavras de baixo escalão(xingamento)?",
+        'resp_1' => "Não, eu tento evitar esse tipo de linguagem.",
+        'resp_2' => "As vezes sem querer acaba saindo no calor do momento.",
+        'resp_3' => "Sim, não vejo problema no uso de tais palavras."
     ],
     [
-        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
-        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
-        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
-        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+        'question' => "Você já ameaçou outros jogadores durante o jogo?",
+        'resp_1' => "Não, nunca cheguei a esse ponto.",
+        'resp_2' => "Já aconteceu, mas eu vi que errei e pedi desculpas.",
+        'resp_3' => "Sim, eu não ligo de fazer isso pois a pessoa nem me conhece de verdade."
     ],
     [
-        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
-        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
-        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
-        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+        'question' => "Você costuma culpa outros jogadores por suas próprias falhas no jogo?",
+        'resp_1' => "Não, nunca fiz isso.",
+        'resp_2' => "As vezes, depende da situação durante o jogo.",
+        'resp_3' => "Sim, eu me acho certo sempre."
     ],
     [
-        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
-        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
-        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
-        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+        'question' => "Como você se sentiria se fosse banido de um jogo online?",
+        'resp_1' => "Reconheceria que eu fiz algo de errado para receber essa punição.",
+        'resp_2' => "Irritado e estressado mas buscaria reconhecer que o erro possa ter sido meu.",
+        'resp_3' => "Frustação, raiva, ódio, indignado."
     ],
     [
-        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
-        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
-        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
-        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+        'question' => "Você ja cometeu Racismo, Assédios, Homofobia ou qualquer outro tipo de preconceito em uma partida?",
+        'resp_1' => "Não, nunca.",
+        'resp_2' => "Já sim, mas me arrependi e fui pedir desculpas.",
+        'resp_3' => "Sim, cometi e não me arrependo disso."
     ]
 ];
 
