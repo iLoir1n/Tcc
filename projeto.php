@@ -154,12 +154,33 @@ $perguntas['amigo_jogador'] = [
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
 </head>
 
+<style>
+
+#h4_text {
+    font-size: 25px;
+    margin: -30px 0 0px;
+    color: #444;
+    text-align: center;
+}
+
+#h4_text_2 {
+    font-size: 17px;
+    margin: 5px 0 10px;
+    color: orangered;
+}
+#h4_text_3 {
+    font-size: 17px;
+    margin: -29px 0 0px;
+    color: orangered;
+}
+</style>
+
 <body>
     <header>
         <div class="container" id="nav-container">
             <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
                 <a class="navbar-brand texto_imagem" href="index.html">
-                    <img id="logo" src="img/logo2.png" alt="hDC Agency"> JL Community
+                    <img id="logo" src="img/logo2.png" alt="JL Community"> JL Community
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -179,12 +200,21 @@ $perguntas['amigo_jogador'] = [
 
     <div class="test-container">
         <form id="controller" action="controller/projetoController.php" method="POST">
-            <div class="col-10">
-                <h3 class="textprojeto1">Quiz: Descubra o qual tóxico você ou um amigo é em jogos eletrônicos.</h3>
-                É hora da verdade - responda a este teste com honestidade e descubra seu nível ou de um amigo de toxicidade em jogos eletrônicos.
-                Jogos eletrônicos podem ser uma diversão para uma grande parte da população em 
+            <div class="col-12">
+                <h4 class="main-title">Quiz sobre Toxicidade<br></h4>
+                <h3 id="h4_text">Faça o teste e descubra se você ou algum conhecido apresenta um indício de toxicidade em jogos.</h3><br>
+                <h3 id="h4_text_2">OBSERVAÇÕES GERAIS:</h3>
+                
+                <p id="h4_text_2">1) Serão no total 10 perguntas.</p><br>
+                <p id="h4_text_3">2) as 10 questões você pode obter uma pontuação de 0 a 20 sendo:</p>
+                <li style="color:orangered">De x a ...</i>
+                <li style="color:orangered">De x a ...</i>
+                <li style="color:orangered">De x a ...</i>
+                </span><br>
+                <p id="h4_text_2">3) Serão no total 10 perguntas.</p><br>
                 
             </div>
+
             <?php if (!isset($_SESSION['pontuacao'])) { ?>
                 <div id="quemE">
                     Para quem é esse teste:
