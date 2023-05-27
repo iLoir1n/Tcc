@@ -180,7 +180,10 @@ $perguntas['amigo_jogador'] = [
     <div class="test-container">
         <form id="controller" action="controller/projetoController.php" method="POST">
             <div class="col-10">
-                <h3 class="textprojeto1">Sobre a JL Comunnity</h3>
+                <h3 class="textprojeto1">Quiz: Descubra o qual tóxico você ou um amigo é em jogos eletrônicos.</h3>
+                É hora da verdade - responda a este teste com honestidade e descubra seu nível ou de um amigo de toxicidade em jogos eletrônicos.
+                Jogos eletrônicos podem ser uma diversão para uma grande parte da população em 
+                
             </div>
             <?php if (!isset($_SESSION['pontuacao'])) { ?>
                 <div id="quemE">
