@@ -67,64 +67,64 @@ $perguntas['jogador'] = [
 
 $perguntas['amigo_jogador'] = [
     [
-        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
-        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
-        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
-        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+        'question' => "Como a pessoa que joga fica quando estar jogando jogos eletrônicos?",
+        'resp_1' => "Não se estressa.",
+        'resp_2' => "Se estressa, porém, se controla.",
+        'resp_3' => "Se estressa."
     ],
     [
-        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
-        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
-        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
-        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+        'question' => "O resultado final da partida influência no emocional dessa pessoa?",
+        'resp_1' => "Não.",
+        'resp_2' => "Às vezes.",
+        'resp_3' => "Não."
     ],
     [
-        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
-        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
-        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
-        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+        'question' => "Como essa pessoa reage quando perde ou comete erros no jogo?",
+        'resp_1' => "Procura aprender com seus próprios erros.",
+        'resp_2' => "Se estressa porém vejo que não influencia no dia dela.",
+        'resp_3' => "Se estressa muito ao ponto de eu ver ela mudar de humor."
     ],
     [
-        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
-        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
-        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
-        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+        'question' => "Essa pessoa costuma ser rude ou desrespeitoso com outros jogadores após perder uma partida?",
+        'resp_1' => "Não.",
+        'resp_2' => "Depende de como o adversário trata ela.",
+        'resp_3' => "Sim."
     ],
     [
-        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
-        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
-        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
-        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+        'question' => "De 0 a 10 como você ver essa pessoa criticando ou insultando outros jogadores durante o jogo?",
+        'resp_1' => "0 a 3=nunca.",
+        'resp_2' => "4 a 6=às vezes.",
+        'resp_3' => "7 a 10=sempre."
     ],
     [
-        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
-        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
-        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
-        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+        'question' => "Essa pessoa costuma culpar outros jogadores por suas próprias falhas no jogo?",
+        'resp_1' => "Não.",
+        'resp_2' => "Às vezes.",
+        'resp_3' => "Sempre."
     ],
     [
-        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
-        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
-        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
-        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+        'question' => "Essa pessoa costuma usar palavras de baixo escalão (xingamentos)?",
+        'resp_1' => "Não, eu notei que ela evita esse tipo de linguagem.",
+        'resp_2' => "Às vezes noto que sem querer no calor do momento ela costuma fazer isso.",
+        'resp_3' => "Sim, ela usa palavras de baixo escalão sempre."
     ],
     [
-        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
-        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
-        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
-        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+        'question' => "Essa pessoa já ameaçou outros jogadores durante o jogo?",
+        'resp_1' => "Não, nunca a vi chegar a esse ponto.",
+        'resp_2' => "Já aconteceu, mas notei que ela viu que errou e foi pedir desculpas.",
+        'resp_3' => "Sim, ela sempre se impoe nos jogos assim e não ligo para as consequências."
     ],
     [
-        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
-        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
-        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
-        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+        'question' => "Essa pessoa já cometeu Racismo, Assédios, Homofobia ou qualquer outro tipo de preconceito em uma partida?",
+        'resp_1' => "Não, nunca.",
+        'resp_2' => "Já sim, mas elase arrependeu e foi pedir desculpas.",
+        'resp_3' => "Sim, cometeu e não se arrependeu disso."
     ],
     [
-        'question' => "Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que isso aconteceu?",
-        'resp_1' => "Minha mentalidade de Desafiante me faz perder contra as aleatoriedades desse pratinha",
-        'resp_2' => "Errei várias vezes, time, perdoa. O ADC deles é bom mesmo, hein…",
-        'resp_3' => "Culpa do jungler e do suporte, sempre, eu fiz a minha parte, morri porque meu time é ruim"
+        'question' => "Como você acha essa pessoa se sentiria se fosse banida de um jogo online?",
+        'resp_1' => "Reconheceria que fez algo de errado para receber essa punição.",
+        'resp_2' => "Irritada e estressada mas buscaria reconhecer que o erro possa ter sido dela.",
+        'resp_3' => "Frustação, raiva, ódio, indignada."
     ]
 
 ];
@@ -288,7 +288,7 @@ $perguntas['amigo_jogador'] = [
                     echo "Conforme essa nota ,foi considerado com um nível médio de toxicidade!<br><br>
                     Ter uma conduta BOA apenas às vezes pode prejudicar a sí mesmo e ao próximo, tome cuidado para isso não sair da linha.<br>
                     Mesmo que não tenha recebido a nota de nível alto de toxicidade, gostariamos que olhasse nossa página que falamos sobre toxicidade<br>
-                    e apartir dela tivesse uma base maior para que consiga abaixar o nível de toxicidade um dia.<a href='toxidade.html'>Clique aqui e veja!</a>";
+                    e apartir dela tivesse uma base maior para que consiga abaixar o nível de toxicidade um dia.<a href='toxidade.html' >Clique aqui e veja!</a>";
                 } else {
                     echo "<p id='pontuacao'>Você obteve uma pontuação de: " .  $_SESSION['pontuacao'] . " pontos</p>";
                     echo "Infelizmente conforme essa nota, foi considerado com um nível alto de toxicidade!<br><br>
