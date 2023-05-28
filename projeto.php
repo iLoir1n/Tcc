@@ -155,24 +155,24 @@ $perguntas['amigo_jogador'] = [
 </head>
 
 <style>
+    #h4_text {
+        font-size: 25px;
+        margin: -30px 0 0px;
+        color: #444;
+        text-align: center;
+    }
 
-#h4_text {
-    font-size: 25px;
-    margin: -30px 0 0px;
-    color: #444;
-    text-align: center;
-}
+    #h4_text_2 {
+        font-size: 17px;
+        margin: 5px 0 10px;
+        color: #444;
+    }
 
-#h4_text_2 {
-    font-size: 17px;
-    margin: 5px 0 10px;
-    color: orangered;
-}
-#h4_text_3 {
-    font-size: 17px;
-    margin: -29px 0 0px;
-    color: orangered;
-}
+    #h4_text_3 {
+        font-size: 17px;
+        margin: -30px 0 0px;
+        color: #444;
+    }
 </style>
 
 <body>
@@ -204,15 +204,13 @@ $perguntas['amigo_jogador'] = [
                 <h4 class="main-title">Quiz sobre Toxicidade<br></h4>
                 <h3 id="h4_text">Faça o teste e descubra se você ou algum conhecido apresenta um indício de toxicidade em jogos.</h3><br>
                 <h3 id="h4_text_2">OBSERVAÇÕES GERAIS:</h3>
-                
                 <p id="h4_text_2">1) Serão no total 10 perguntas.</p><br>
-                <p id="h4_text_3">2) as 10 questões você pode obter uma pontuação de 0 a 20 sendo:</p>
-                <li style="color:orangered">De x a ...</i>
-                <li style="color:orangered">De x a ...</i>
-                <li style="color:orangered">De x a ...</i>
-                </span><br>
-                <p id="h4_text_2">3) Serão no total 10 perguntas.</p><br>
-                
+                <p id="h4_text_3">2) As 10 questões você pode obter uma pontuação de 0 a 20 sendo:</p>
+                <li style="color:orangered"><b>0 a 6:</b> nível baixo ou nenhum de toxicidade.</i>
+                <li style="color:orangered"><b>7 a 14:</b> nível médio de toxicidade.</i>
+                <li style="color:orangered"><b>15 a 20:</b> nível alto de toxicidade.</i><br>
+                <p id="h4_text_2">3) O resultado final não é um laudo médico e sim uma base para você reconhecer a você mesmo.</p><br>
+                <p id="h4_text_2"><u>BOM TESTE!</u>😉</p><br>
             </div>
 
             <?php if (!isset($_SESSION['pontuacao'])) { ?>
@@ -225,20 +223,6 @@ $perguntas['amigo_jogador'] = [
                     </select>
                 </div>
                 <div id="jogador" style="display: none;">
-                    <!-- <div id="question-1">
-                        <h2 class="test_sub">Questão 01</h2>
-                        <p> Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que
-                            isso
-                            aconteceu?</p> </br>
-                        <p><input type="radio" name="jogador_question1" value="1"> <strong>A)</strong> “Errei várias vezes, time,
-                            perdoa. O ADC deles é bom mesmo, hein…”</p>
-                        <p><input type="radio" name="jogador_question1" value="2"> <strong>B)</strong> “Minha mentalidade de
-                            Desafiante
-                            me faz perder contra as aleatoriedades desse pratinha”</p>
-                        <p><input type="radio" name="jogador_question1" value="3"> <strong>C)</strong> “Culpa do jungler e do
-                            suporte,
-                            sempre, eu fiz a minha parte, morri porque meu time é ruim”</p>
-                    </div> -->
                     <?php foreach ($perguntas['jogador'] as $key => $value) {
                         $index = $key + 1; ?>
                         <div id="question-1" class="questions">
@@ -282,54 +266,6 @@ $perguntas['amigo_jogador'] = [
                             </p>
                         </div>
                     <?php } ?>
-
-                    <!-- 
-                        
-                      <div id="question-1" class="questions">
-                        <h2 class="test_sub">Questão 01</h2>
-                        <p> Jogando MOBA como atirador, seu oponente de rota está 4/0 com 10 minutos de partida. Por que
-                            isso
-                            aconteceu?</p> </br>
-                        <p><input type="radio" name="amigo_question1" value="1"> <strong>A)</strong> “Errei várias vezes, time,
-                            perdoa. O ADC deles é bom mesmo, hein…”</p>
-                        <p><input type="radio" name="amigo_question1" value="2"> <strong>B)</strong> “Minha mentalidade de
-                            Desafiante
-                            me faz perder contra as aleatoriedades desse pratinha”</p>
-                        <p><input type="radio" name="amigo_question1" value="3"> <strong>C)</strong> “Culpa do jungler e do
-                            suporte,
-                            sempre, eu fiz a minha parte, morri porque meu time é ruim”</p>
-                    </div>
-
-                    <div id="question-2" class="questions">
-                        <h2 class="test_sub">Questão 02</h2>
-                        <p> Jogando um FPS, seu time inteiro morre para um inimigo de escopeta escondido em um canto. Você
-                            tentou vingar seus aliados, errou todos os tiros e morreu também. Como proceder?</p> </br>
-                        <p><input type="radio" name="amigo_question2" value="1"> <strong>A)</strong> “NT, time, my bad. Bora jogar
-                            com
-                            calma o próximo round”</p>
-                        <p><input type="radio" name="amigo_question2" value="2"> <strong>B)</strong> “Com essa arma quebrada é
-                            fácil”
-                        </p>
-                        <p><input type="radio" name="amigo_question2" value="3"> <strong>C)</strong> “Vocês são muito ruins, FF.
-                            Se
-                            faz um favor e desinstala…”</p>
-                    </div>
-
-                    <div id="question-3" class="questions">
-                        <h2 class="test_sub">Questão 03</h2>
-                        <p>Em qualquer jogo online, a partida está difícil e muito disputada. Ambos os times têm chance de
-                            ganhar, mas um aliado já perdeu a paciência e está mais digitando palavras raivosas no chat de
-                            texto
-                            do que jogando. Como lidar?.</p> </br>
-                        <p><input type="radio" name="amigo_question3" value="1"> <strong>A)</strong> Pedir calma e falar para
-                            jogarem
-                            juntos: “calma, cara, dá pra ganhar, um pick neles e é GG”.</p>
-                        <p><input type="radio" name="amigo_question3" value="2"> <strong>B)</strong> Silenciar o indivíduo e
-                            esperar
-                            pelo melhor.</p>
-                        <p><input type="radio" name="amigo_question3" value="3"> <strong>C)</strong> Responder carinhosamente com:
-                            “Joga mais e fala menos, não sabe jogar não picka".</p>
-                    </div> -->
                 </div>
 
                 <br>
@@ -340,20 +276,24 @@ $perguntas['amigo_jogador'] = [
 
             } else {
 
+                echo "<h3>__________________________________________<h3>";
                 echo "<h2>Obrigado por responder a pesquisa!</h2>";
 
                 if ($_SESSION['pontuacao'] < 7) {
                     echo "<p id='pontuacao'>Você obteve uma pontuação de: " .  $_SESSION['pontuacao'] . " pontos</p>";
-                    echo "Parabéns, conforme a nota " .  $_SESSION['pontuacao'] . ",foi considerado NÃO TÓXICO!";
+                    echo "Conforme essa nota, foi considerado com um nível baixo de toxicidade!<br>
+                    Parabéns por ter essa boa conduta, dessa forma a comunidade gamer crescerá de forma saudável.";
                 } else if ($_SESSION['pontuacao'] < 15) {
                     echo "<p id='pontuacao'>Você obteve uma pontuação de: " .  $_SESSION['pontuacao'] . " pontos</p>";
-                    echo "Conforme a nota " .  $_SESSION['pontuacao'] . ",foi considerado MAIS OU MENOS TÓXICO!<br>
-                    Ter uma conduta BOA apenas às vezes pode prejudicar a si e ao próximo, tome cuidado para isso não sair da linha.";
+                    echo "Conforme essa nota ,foi considerado com um nível médio de toxicidade!<br><br>
+                    Ter uma conduta BOA apenas às vezes pode prejudicar a sí mesmo e ao próximo, tome cuidado para isso não sair da linha.<br>
+                    Mesmo que não tenha recebido a nota de nível alto de toxicidade, gostariamos que olhasse nossa página que falamos sobre toxicidade<br>
+                    e apartir dela tivesse uma base maior para que consiga abaixar o nível de toxicidade um dia.<a href='toxidade.html'>Clique aqui e veja!</a>";
                 } else {
                     echo "<p id='pontuacao'>Você obteve uma pontuação de: " .  $_SESSION['pontuacao'] . " pontos</p>";
-                    echo "Infelizmente conforme a nota " .  $_SESSION['pontuacao'] . ",foi considerado TÓXICO!<br>
-                    Considerado TÓXICO,está de forma negativa afetando a própria vida e ao do próximo.<br>
-                    Temos uma página explicando sobre as causas,motivos e consequências da Toxicidade em Jogos Eletrônicos,<a href='toxidade.html'>clique aqui</a> e veja você mesmo(a).";
+                    echo "Infelizmente conforme essa nota, foi considerado com um nível alto de toxicidade!<br><br>
+                    Considerado uma pessoa tóxica,está de forma negativa afetando a própria vida e a do próximo.<br>
+                    Se com essa nota sente que deveria mudar sua conduta, temos um guia importante para mostrar como melhorar.<a href='toxidade.html'>Clique aqui e veja você mesmo!</a>";
                 }
 
                 // remove a pontuação da variável de sessão para que não seja exibida novamente
