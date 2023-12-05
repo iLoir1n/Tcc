@@ -318,7 +318,7 @@ $perguntas['amigo_jogador'] = [
                     <div class="col-md-4 contact-box">
                         <i class="fas fa-envelope"></i>
                         <p><span class="contact-tile">Envie um email:</span> JlCommunity@hotmail.com</p>
-                        <p><span class="contact-tile">Discord: </span><a id="text-sem-decoracao" href="https://discord.gg/VK8N7DrD">Clique Aqui</a></p>
+                        <p><span class="contact-tile">Discord: </span><a id="text-sem-decoracao" href="https://discord.gg/YwXVQXpN">Clique Aqui</a></p>
                     </div>
                     <div class="col-md-4 contact-box">
                         <i class="fas fa-phone"></i>
